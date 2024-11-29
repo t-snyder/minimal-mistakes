@@ -9,6 +9,7 @@ html {
   box-sizing: border-box;
   background-color: $background-color;
   font-size: $doc-font-size;
+ /* font-size: $doc-font-size; */
 
   @include breakpoint($medium) {
     font-size: $doc-font-size-medium;
